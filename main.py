@@ -13,3 +13,4 @@ commit = '{time}-{date}'.format(time=time, date=date)
 
 os.system('git add .')
 os.system('git commit -m {commit}'.format(commit=commit))
+os.system('git push')
